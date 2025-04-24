@@ -1,14 +1,11 @@
-#include <stdio.h>
 
-void celsiusToFahrenheit(float c) {
-    printf("Fahrenheit: %.2f\n", (c * 9 / 5) + 32);
-}
 
-void celsiusToKelvin(float c) {
-    printf("Kelvin: %.2f\n", c + 273.15);
-}
+    
+        case 4: fahrenheitToKelvin(temp); break;
+        case 5: kelvinToCelsius(temp); break;
+        case 6: kelvinToFahrenheit(temp); break;
+        default: printf("Invalid choice\n");
+    }
 
-void fahrenheitToCelsius(float f) {
-    printf("Celsius: %.2f\n", (f - 32) * 5 / 9);
-}
-
+    return 0;
+}   
